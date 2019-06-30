@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginTopPercent="10%"
+        app:layout_widthPercent="30%" />
+
+    <TextView
+        android:id="@+id/txtMob_no"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:text="Mobileno :"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginTopPercent="4%"
+        app:layout_widthPercent="30%" />
+
+    <TextView
+        android:id="@+id/txtEmail_1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMob_no"
+        android:text="Email_1 :"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginTopPercent="4%"
+        app:layout_widthPercent="30%" />
+
+
+    <TextView
+        android:id="@+id/txtEmail_2"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmail_1"
+        android:text="Email_2 :"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginTopPercent="4%"
+        app:layout_widthPercent="30%" />
+
+    <TextView
+        android:id="@+id/txtGender"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmail_2"
+        android:text="Gender :"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginTopPercent="4%"
+        app:layout_widthPercent="30%" />
+
+    <TextView
+        android:id="@+id/txtCourse"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtGender"
+        android:text="Course :"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginTopPercent="4%"
+        app:layout_widthPercent="30%" />
+
+
+    <TextView
+        android:id="@+id/txtParmanentAdd1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCourse"
+        android:text="Parmanent Address :"
+        android:textColor="#000"
+        android:textSize="16sp"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginTopPercent="4%"
+        app:layout_widthPercent="30%" />
+
+    <TextView
+        android:id="@+id/txtCorresspondaceAdd2"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtParmanentAdd1"
+        android:text="Corresspondance Address:"
+        android:textColor="#000"
+        android:textSize="15sp"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginTopPercent="2%"
+        app:layout_widthPercent="30%" />
+
+    <TextView
+        android:id="@+id/txtCollege"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCorresspondaceAdd2"
+        android:text="College :"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginTopPercent="4%"
+        app:layout_widthPercent="30%" />
+
+    <TextView
+        android:id="@+id/edtName"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/txtName"
+        android:background="@drawable/shape_draw"
+        android:paddingTop="15dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="3%"
+        app:layout_marginTopPercent="8%"
+        app:layout_widthPercent="50%" />
+
+
+    <TextView
+        android:id="@+id/edtMob_no"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/txtMob_no"
+        android:background="@drawable/shape_draw"
+        android:paddingTop="15dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="3%"
+        app:layout_marginTopPercent="16%"
+        app:layout_widthPercent="50%" />
+
+    <TextView
+        android:id="@+id/edtEmail_1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMob_no"
+        android:layout_toRightOf="@+id/txtEmail_1"
+        android:background="@drawable/shape_draw"
+        android:paddingTop="15dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="3%"
+        app:layout_marginTopPercent="3%"
+        app:layout_widthPercent="50%" />
+
+    <TextView
+        android:id="@+id/edtEmail_2"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtEmail_1"
+        android:layout_toRightOf="@+id/txtEmail_2"
+        android:background="@drawable/shape_draw"
+        android:paddingTop="10dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="3%"
+        app:layout_marginTopPercent="3%"
+        app:layout_widthPercent="50%" />
+
+    <TextView
+        android:id="@+id/genderValue"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtEmail_2"
+        android:layout_toRightOf="@+id/txtGender"
+        android:background="@drawable/shape_draw"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="3%"
+        app:layout_marginTopPercent="3%"
+        app:layout_widthPercent="50%" />
+    <TextView
+        android:id="@+id/edtcourse"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/genderValue"
+        android:layout_toRightOf="@+id/txtGender"
+        android:background="@drawable/shape_draw"
+        android:paddingTop="5dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="3%"
+        app:layout_marginTopPercent="3%"
+        app:layout_widthPercent="50%" />
+    <TextView
+        android:id="@+id/edtParmanentAdd1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtcourse"
+        android:layout_toRightOf="@+id/txtParmanentAdd1"
+        android:background="@drawable/shape_draw"
+        android:paddingTop="11dp"
+        android:textColor="#000"
+        android:textSize="21sp"
+        app:layout_marginLeftPercent="3%"
+        app:layout_marginTopPercent="3%"
+        app:layout_widthPercent="50%" />
+
+    <TextView
+        android:id="@+id/edtCorresspondanceAdd2"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtParmanentAdd1"
+        android:layout_toRightOf="@+id/txtCorresspondaceAdd2"
+        android:background="@drawable/shape_draw"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:padding="8dp"
+        app:layout_marginLeftPercent="3%"
+        app:layout_marginTopPercent="3%"
+        app:layout_widthPercent="50%" />
+    <TextView
+        android:id="@+id/edtCollege"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtCorresspondanceAdd2"
+        android:layout_toRightOf="@+id/txtCollege"
+        android:background="@drawable/shape_draw"
+        android:textColor="#000"
+        android:padding="8dp"
+        android:textSize="20sp"
+        app:layout_marginLeftPercent="3%"
+        app:layout_marginTopPercent="3%"
+        app:layout_widthPercent="50%" />
+
+
+
+</android.support.percent.PercentRelativeLayout>
